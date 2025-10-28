@@ -9,7 +9,7 @@ import imageio
 from skimage.color import rgb2gray
 import os
 
-# ====== GANTI SESUAI NAMA FILE GAMBARMU ======
+
 image_path = r'D:\Tugas Citra Digital\Skyline R34.jpg'
 
 # Cek apakah file ada
@@ -79,3 +79,4 @@ plt.show()
 # Cetak nilai PSNR dan SSIM
 for name, vals in metrics.items():
     print(f"{name} -> PSNR: {vals['PSNR']:.2f}, SSIM: {vals['SSIM']:.4f}")
+
